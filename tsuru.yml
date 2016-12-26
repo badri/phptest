@@ -1,0 +1,12 @@
+php:
+    frontend:
+        name: apache-mod-php
+        options:
+            modules:
+                - rewrite
+
+    drupal:
+        drush: 8
+        profile: standard
+        extra-opts: --account-mail=lakshmi@axelerant.com
+        skip-site-install: true
